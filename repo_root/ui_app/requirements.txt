@@ -1,0 +1,10 @@
+gmsh
+meshio
+gradio
+numpy
+plotly
+#dolfinx
+trimesh
+numpy-stl
+requests
+
