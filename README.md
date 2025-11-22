@@ -1,7 +1,7 @@
 # mesh-gen-fea-service-prototype
 This is a repo which deploys mesh generation (gmsh) and a FEA service (FEniCS) via a Docker engine to a Gradio GUI
 
-# AI Mesh Optimizer Demo (FEniCSx + Gmsh App)
+# Mesh Gen + Light FEA Analysis Demo (FEniCSx + Gmsh App)
 
 This repository is a deployable Docker Space that:
 - Loads a STEP CAD file
