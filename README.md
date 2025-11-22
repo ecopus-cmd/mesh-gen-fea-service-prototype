@@ -15,4 +15,9 @@ This repository is a deployable Docker Space that:
 ```bash
 docker compose build 
 docker compose up
+```
 
+## NOTES
+--> you must utilize a docker engine to this repo as these Python packages require a Windows Linux subsystem. 
+--> docker.desktop is free and works great for this repo: https://www.docker.com/products/docker-desktop/ 
+--> follow this link for a demo: https://drive.google.com/file/d/1Ki6btzYgXYet3SrkbYCvF6xwqTX7tGTx/view?usp=sharing 
