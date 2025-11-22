@@ -1,0 +1,18 @@
+services:
+  ui_app:
+    build:
+      context: ./ui_app
+      dockerfile: Dockerfile
+    ports:
+      - "7860:7860"
+    environment:
+      - FEA_SERVICE_URL=http://fenics-fea-service:8000/solve_elasticity
+    depends_on:
+      - fenics-fea-service
+
+  fenics-fea-service:
+    build:
+      context: ./fea_service
+      dockerfile: Dockerfile.fea
+    ports:
+      - "8000:8000"
